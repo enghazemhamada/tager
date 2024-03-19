@@ -1,0 +1,56 @@
+.login,
+.register {
+    background-color: #5ea680;
+}
+.login .container,
+.register .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 62px);
+}
+.form {
+    width: 500px;
+    max-width: 100%;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+.form h3 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.form input {
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 2px solid #676767;
+}
+.form .btn {
+    display: block;
+    width: 100%;
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.form .text {
+    font-size: 14px;
+}
+.form .text a {
+    color: #1f1fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}

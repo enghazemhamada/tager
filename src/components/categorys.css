@@ -1,0 +1,21 @@
+.categorys .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 50px;
+    margin-top: 30px;
+}
+@media (max-width: 767px) {
+    .categorys .cards {
+        gap: 20px;
+    }
+}
+.categorys .cards .card img {
+    filter: var(--main-filter);
+    width: 100%;
+    height: 115px;
+}
+.categorys .cards h4 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}

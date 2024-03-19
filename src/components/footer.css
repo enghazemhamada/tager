@@ -1,0 +1,32 @@
+.footer {
+    background-color: #c7e9d8;
+}
+.footer .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+.footer .box h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.footer .box ul li {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.footer .capyRight {
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer .capyRight p {
+    margin-bottom: 5px;
+}
+.footer .capyRight span {
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 700;
+}

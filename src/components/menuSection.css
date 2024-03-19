@@ -1,0 +1,28 @@
+.menuSection .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 50px;
+    margin-top: 20px;
+}
+.menuSection .cards .card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+}
+.menuSection .cards .card li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px;
+}
+.menuSection .cards .card li:not(:last-child) {
+    border-bottom: 1px solid var(--main-color);
+}
+.menuSection .cards .card li:first-child {
+    color: #fff;
+    background-color: var(--main-color);
+}
